@@ -1,0 +1,24 @@
+IACTION * %1 %4
+ICTCP [%1 %4] %5
+ICTCPA [%1 %4 reply] %5
+ICHANMSG <%1> %4
+IPRIVMSG *%1* %4
+ICHANNOTC -%1- %4
+IPRIVNOTC -%1- %4
+IJOIN *** %1 (%2@%3) has joined %4
+IBOTJOIN %4 has been joined.
+IPART *** %1 (%2@%3) has part %4%5
+IBOTPART *** %4 has been parted.
+IKICK *** %4 has been kicked by %1%5
+IBOTKICK *** I'v been kicked by %1%4
+IMODE *** %1 sets mode: %4
+ITOPIC *** %1 has changed topic: %4
+INICK *** %1 is now known as %4
+IQUIT *** %1 (%2@%3) has quited.
+OACTION * %1 %2
+OCTCP * [%1] %2
+OCHANMSG <%0> %2
+OPRIVMSG -> *%1* %2
+OCHANNOTC -> -%1- %2
+OPRIVNOTC -> -%1- %2
+OCTCPA -> [%1] %2
